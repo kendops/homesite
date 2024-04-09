@@ -43,3 +43,8 @@ kubectl get svc -n homesite — creates service
 kubectl get ing -n homesite — creates ingress
 kubectl describe -n homesite — check app detail
 ```
+
+### Delete EKS cluster 
+```sh
+eksctl delete cluster demo-cluster
+```
