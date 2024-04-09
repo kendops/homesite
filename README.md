@@ -46,5 +46,5 @@ kubectl describe -n homesite — check app detail
 
 ### Delete EKS cluster 
 ```sh
-eksctl delete cluster demo-cluster
+eksctl delete cluster demo-cluster
 ```
